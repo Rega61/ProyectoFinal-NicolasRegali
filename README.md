@@ -1,16 +1,64 @@
-# React + Vite
+📱 Store de Celulares – Proyecto Final React
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Autor: Nicolás Regali
+Curso: React JS
 
-Currently, two official plugins are available:
+📌 Descripción
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Aplicación web tipo e-commerce desarrollada con React, que permite visualizar productos, filtrarlos por categoría y marca, ver el detalle, gestionar un carrito de compras y finalizar una orden mediante Firebase Firestore.
 
-## React Compiler
+⚙️ Funcionalidades
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Listado dinámico de productos
 
-## Expanding the ESLint configuration
+Filtro por categorías y marcas
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Detalle de producto
+
+Carrito de compras (agregar, eliminar, vaciar)
+
+Cálculo automático del total
+
+Checkout con generación de orden
+
+Navegación SPA con React Router
+
+🛠 Tecnologías
+
+React JS
+
+Vite
+
+React Router DOM
+
+Context API
+
+Firebase Firestore
+
+Bootstrap
+
+JavaScript ES6+
+
+▶️ Ejecución
+git clone https://github.com/Rega61/ProyectoFinal-NicolasRegali.git
+npm install
+npm run dev
+
+
+Abrir en: http://localhost:5173
+
+📂 Estructura
+
+components/ → Componentes reutilizables
+
+containers/ → Lógica y carga de datos
+
+context/ → Estado global del carrito
+
+pages/ → Vistas principales
+
+firebase/ → Configuración de Firestore
+
+🎯 Objetivo
+
+Aplicar conceptos fundamentales de React, manejo de estado global, enrutado y persistencia de datos en un proyecto funcional y escalable.
